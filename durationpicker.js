@@ -1,6 +1,7 @@
 $.widget("radiatq.DurationPicker", $.ui.spinner, {
     options: {
-
+    //Value in minutes.
+        step:30
     },
     TimeSapanWithDay: /^(\d.\d{2}:\d{2}:\d{2})$/,
     TimeSapanWithoutday: /^(\d{2}:\d{2}:\d{2})$/,
@@ -19,7 +20,7 @@ $.widget("radiatq.DurationPicker", $.ui.spinner, {
         return value;
     },
     _increment: function (val, i) {
-        var value = val.addMinutes(30 * i);
+        var value = val.addMinutes(this.options.step * i);
         return value;
     },
     _value: function (value, allowAny) {
@@ -32,6 +33,9 @@ $.widget("radiatq.DurationPicker", $.ui.spinner, {
         }
         this.element.val(value);
         this._refresh();
+    },
+    GetDuration: function () {
+        this._parse(this.element.val());
     },
     _spin: function (step, event) {
         var value = this.value() || 0;
