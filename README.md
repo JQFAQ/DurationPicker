@@ -12,6 +12,19 @@ var $durationPicker= $("#durationPicker")
 $durationPicker.DurationPicker();
 
 
-HTML
-====
-<input id="durationPicker" value="08:00:00"></input>
+<p>HTML </p>
+&lt;input id="durationPicker" value="08:00:00" /&gt;
+
+Description.
+===========
+
+The format must be like this.
+
+d.hh.mm.ss (RegExp : /^(\d.\d{2}:\d{2}:\d{2})/ )  
+hh.mm.ss (RegExp : /^(\d{2}:\d{2}:\d{2})/ )  
+
+Examples valid values:        
+08.07.00                       
+1.00.00.00       
+
+<strong>Note: This widget is dependent with RQTimeSpan library. this library deals with timespans(durations).</strong>
