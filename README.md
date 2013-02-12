@@ -27,4 +27,4 @@ Examples valid values:
 08.07.00                       
 1.00.00.00       
 
-<strong>Note: This widget is dependent with RQTimeSpan library. this library deals with timespans(durations).</strong>
+<strong>Note: This widget is dependent with JQFAQTimeSpan library. this library deals with timespans(durations).</strong>
