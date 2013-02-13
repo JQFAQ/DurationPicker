@@ -1,7 +1,7 @@
 DurationPicker
 ==============
 Duration defines the diffreance between two dates. In JQuery UI, there is no editor ot edit the duration.
-This is derived from <a href="http://api.jqueryui.com/datepicker/">JQuery UI Spinner widget<a/>. You can see the <a href="http://jqfaq.com/how-to-use-durationpicker-widget/">Example<a/> here for hoe to use the DuratioPicker widget
+This is derived from <a href="http://api.jqueryui.com/datepicker/">JQuery UI Spinner widget<a/>. You can see the <a href="http://jqfaq.com/how-to-use-durationpicker-widget/">Example<a/> here for how to use the DuratioPicker widget
 
 
 
