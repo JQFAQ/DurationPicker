@@ -29,5 +29,5 @@ Examples valid values:
 
 <strong>Note: This widget is dependent with JQFAQTimeSpan library. this library deals with timespans(durations).</strong>
      
-<strong>Sponsored By</strong><s href="http://jqfaq.com/">jqfaq.com</a>        
+<strong>Sponsored By</strong><a href="http://jqfaq.com/">jqfaq.com</a>        
 
