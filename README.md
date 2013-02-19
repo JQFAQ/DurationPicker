@@ -5,7 +5,7 @@ This is derived from <a href="http://api.jqueryui.com/datepicker/">JQuery UI Spi
 
 
 
-Usage.
+Usage
 =====
 
 var $durationPicker= $("#durationPicker")
@@ -15,7 +15,7 @@ $durationPicker.DurationPicker();
 <p>HTML </p>
 &lt;input id="durationPicker" value="08:00:00" /&gt;
 
-Description.
+Description
 ===========
 
 The format must be like this.
@@ -29,5 +29,4 @@ Examples valid values:
 
 <strong>Note: This widget is dependent with JQFAQTimeSpan library. this library deals with timespans(durations).</strong>
      
-<strong>Sponsored By</strong> <a href="http://jqfaq.com/"><b>JQFAQ.com</b></a>        
-
+<strong>Sponsored By</strong> <a href="http://jqfaq.com/"><b>JQFAQ.com</b></a> 
