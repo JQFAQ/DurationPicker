@@ -1,7 +1,7 @@
 DurationPicker
 ==============
-Duration defines the diffreance between two dates. In JQuery UI, there is no editor ot edit the duration.
-This is derived from <a href="http://api.jqueryui.com/datepicker/">JQuery UI Spinner widget<a/>. You can see the <a href="http://jqfaq.com/how-to-use-durationpicker-widget/">Example<a/> here for how to use the DuratioPicker widget
+This widget lets you pick the duration or time span and return the value as a string.
+This widget is derived from the <a href="http://api.jqueryui.com/datepicker/">JQuery UI Spinner widget<a/>. Please check <a href="http://jqfaq.com/how-to-use-durationpicker-widget/">Example<a/> for how to use the DuratioPicker widget and a live demo.
 
 
 
@@ -27,6 +27,6 @@ Examples valid values:
 08.07.00                       
 1.00.00.00       
 
-<strong>Note: This widget is dependent with JQFAQTimeSpan library. this library deals with timespans(durations).</strong>
+<strong>Note: This widget is dependent on JQFAQTimeSpan extension. This extension defines a TimeSpan type.</strong>
      
 <strong>Sponsored By</strong> <a href="http://jqfaq.com/"><b>JQFAQ.com</b></a> 
