@@ -29,7 +29,5 @@ Examples valid values:
 
 <strong>Note: This widget is dependent with JQFAQTimeSpan library. this library deals with timespans(durations).</strong>
      
-<strong>Sponsored By</strong>         
-<div><a href="http://www.fusioncharts.com/products/suite/?role=Developer&amp;utm_source=jqfaq&amp;utm_medium=banner&amp;utm_content=1_billion_banner_knight_468X60_fo&amp;utm_campaign=FC_v3_2_Mktg" target="_blank"><img src="http://jqfaq.com/wp-content/uploads/2012/07/BB-glass-468X60px.jpg"></a><br>
-<a class="ad_links" href="mailto:marketing@jqfaq.com?subject=Advetisement in JqFAQ">Click Here to Sponsor</a>
-</div>
+<strong>Sponsored By</strong><s href="http://jqfaq.com/">jqfaq.com</a>        
+
