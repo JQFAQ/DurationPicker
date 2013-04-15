@@ -29,4 +29,4 @@ Examples valid values:
 
 <strong>Note: This widget is dependent on JQFAQTimeSpan extension. This extension defines a TimeSpan type.</strong>
      
-<strong>Sponsored By</strong> <a href="http://jqfaq.com/"><b>JQFAQ.com</b></a> 
+<strong>Sponsored By</strong><div><a href="http://radiantq.com/"><img src="http://jqfaq.com/wp-content/uploads/banner_468x60.jpg"</a></div>
