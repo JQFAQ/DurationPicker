@@ -35,7 +35,7 @@ $.widget("radiatq.DurationPicker", $.ui.spinner, {
         this._refresh();
     },
     GetDuration: function () {
-        this._parse(this.element.val());
+       return this._parse(this.element.val());
     },
     _spin: function (step, event) {
         var value = this.value() || 0;
