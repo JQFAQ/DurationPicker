@@ -23,6 +23,8 @@ $.widget("radiatq.DurationPicker", $.ui.spinner, {
          if (val == 0)        
             val = RQTimeSpan.Zero;    
         var value = val.addMinutes(this.options.minutes * i);
+         if (value.isLessThan(RQTimeSpan.Zero))
+            return RQTimeSpan.Zero;
         return value;
     },
     _value: function (value, allowAny) {
