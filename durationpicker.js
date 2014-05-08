@@ -20,6 +20,8 @@ $.widget("radiatq.DurationPicker", $.ui.spinner, {
         return value;
     },
     _increment: function (val, i) {
+         if (val == 0)        
+            val = RQTimeSpan.Zero;    
         var value = val.addMinutes(this.options.minutes * i);
         return value;
     },
@@ -52,6 +54,12 @@ $.widget("radiatq.DurationPicker", $.ui.spinner, {
         }
     },
     _events: {
+        click: function (event) {
+            if (this.element.val() == "")
+            {
+                this.element.val("00:00:00");
+            }
+        },
         keydown: function (event) {
             if (this._start(event) && this._keydown(event)) {
                 event.preventDefault();
